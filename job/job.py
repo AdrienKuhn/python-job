@@ -7,16 +7,16 @@ import logging
 class Job:
     def __init__(self):
         self._int_for_success = 1
-        self._sleep_time = random.randrange(15)
+        self._sleep_time = random.randrange(10)
 
     def run(self):
         logging.info("%s - Starting fake job" % time.ctime())
-        rand = random.randrange(1, 5)
+        success = random.randrange(1, 4)
 
         logging.info("%s - Running..." % time.ctime())
         time.sleep(self._sleep_time)
 
-        if rand == self._int_for_success:
+        if success == self._int_for_success:
             logging.info("%s - Job ran successfully" % time.ctime())
             sys.exit(0)
         else:

@@ -1,5 +1,7 @@
 # Fake Job Docker Container
 
+[![CircleCI](https://circleci.com/gh/AdrienKuhn/python-job/tree/main.svg?style=shield&circle-token=ebc61502bff3359af29f70554b7b4bfe2e149d63)](https://circleci.com/gh/AdrienKuhn/python-job/tree/main)
+
 ## Usage
 
 ### Docker images

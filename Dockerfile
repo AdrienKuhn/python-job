@@ -1,4 +1,4 @@
-FROM python:3.12.3-alpine
+FROM python:3.13.0rc1-alpine
 RUN mkdir job
 ADD . /job
 ENTRYPOINT python job/run.py
